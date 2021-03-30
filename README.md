@@ -1,5 +1,3 @@
-# microbialpredict-introduce
-introduction
 # Microbial Predict 在线预测微生物建模工具
 
 ## 使用教程
@@ -8,8 +6,10 @@ introduction
 
 ```
 cd code # 切换到网页代码文件夹
-nohup Rscript runShiny.R >nohup.out 2>&1 & # 后台运行
+nohup Rscript runShiny.R > ~/nohup.out 2>&1 & # 后台运行
 ```
+
+打开网页：http://127.0.0.1:6468/
 
 ### 2 功能使用
 
